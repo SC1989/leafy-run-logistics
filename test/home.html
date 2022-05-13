@@ -1,0 +1,406 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light white_Nav-bg">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html">
+                <img src="images/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Shipper</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Carrier</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex get_quote">
+                    <button class="btn btn-outline-success" type="button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main_banner-text d-flex align-items-end flex-wrap">
+                        <div class="d-flex align-items-start flex-column bd-highlight mb-3">
+                            <h4>Get A Quote</h4>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Get A Quote</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="sec1 m-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>GET A QUOTE</h4>
+                    <h6>Fair Prices, Guaranteed</h6>
+                    <p>
+                        No matter how much freight you need to move or where it’s headed, we promise to match you with a motor carrier that we believe is best suited to meet your shipping needs. Simply fill out the form below and we’ll provide you with a quote as quickly as possible for review and approval. Once approved, we’ll finalize the contract with the carrier and see to it that your shipment is picked up and delivered on time as specified below. If you need to make any changes after submitting the form, please call us or contact us online at your earliest convenience so we can update the submission and provide you with the most accurate freight quote. We look forward to meeting all of your current and future shipping needs.
+                    </p>
+
+                    <ul class="d-flex justify-content-between align-items-center mt-5 p-0">
+                        <li class="d-flex align-items-center">
+                            <img src="images/Group-1.png" />
+                            <p>It's Quick And Easy</p>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <img src="images/Group-2.png" />
+                            <p>Secure Items</p>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <img src="images/Group-3.png" />
+                            <p>We Will Come Back to You Within 24 Hours</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="msform">
+                        <ul id="progressbar">
+                            <li class="active">Personal Info</li>
+                            <li class="active">Load Details</li>
+                            <li class="active">Origin & Destination</li>
+                            <li class="active">Shipment Details</li>
+                            <li class="">Other Info</li>
+                        </ul>
+                        <fieldset style="display: none; opacity: 0;">
+                            <h2 class="fs-title">Personal Info</h2>
+                            <input type="text" name="fname" placeholder="First Name">
+                            <input type="text" name="lname" placeholder="Last Name">
+                            <input type="text" name="phone" placeholder="Phone">
+                            <input type="button" name="next" class="next action-button" value="Next">
+                        </fieldset>
+                        <fieldset style="display: none; opacity: 0;">
+                            <h2 class="fs-title">Load Details</h2>
+                            <input type="text" name="twitter" placeholder="Twitter">
+                            <input type="text" name="facebook" placeholder="Facebook">
+                            <input type="text" name="gplus" placeholder="Google Plus">
+                            <input type="button" name="previous" class="previous action-button-previous" value="Previous">
+                            <input type="button" name="next" class="next action-button" value="Next">
+                        </fieldset>
+                        <fieldset style="display: none; opacity: 0;">
+                            <h2 class="fs-title">Origin & Destination</h2>
+                            <input type="text" name="email" placeholder="Email">
+                            <input type="password" name="pass" placeholder="Password">
+                            <input type="password" name="cpass" placeholder="Confirm Password">
+                            <input type="button" name="previous" class="previous action-button-previous" value="Previous">
+                            <input type="button" name="next" class="next action-button" value="Next">
+                        </fieldset>
+                        <fieldset style="transform: scale(1); opacity: 1; display: block;">
+                            <h2 class="fs-title">Shipment info</h2>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="mb-3">
+                                        <label for="ExtraStops" class="form-label">Extra Stops</label>
+                                        <textarea id="ExtraStops" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 offset-md-2">
+                                    <div class="mb-3">
+                                        <label for="Commodity" class="form-label">Commodity</label>
+                                        <textarea id="Commodity" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="mb-3">
+                                        <label for="FreightClass" class="form-label">Freight Class</label>
+                                        <input type="text" class="form-control" id="FreightClass">
+                                    </div>
+                                </div>
+                                <div class="col-md-5 offset-md-2">
+                                    <div class="mb-3">
+                                        <label for="Dimensions" class="form-label">Dimensions</label>
+                                        <select id="Dimensions" class="form-select">
+                                            <option>Disabled select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="mb-3">
+                                        <label for="Weight" class="form-label">Weight</label>
+                                        <input type="text" class="form-control" id="Weight">
+                                    </div>
+                                </div>
+                                <div class="col-md-5 offset-md-2">
+                                    <div class="mb-3">
+                                        <label for="PartialLoad" class="form-label">Full or Partial Load:</label>
+                                        <input type="text" class="form-control" id="PartialLoad">
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="mb-3">
+                                        <label for="Pallets" class="form-label">Number of Pallets</label>
+                                        <select id="Pallets" class="form-select">
+                                            <option>Disabled select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 offset-md-2">
+                                    <div class="mb-3">
+                                        <label for="Equipment" class="form-label">Equipment Type</label>
+                                        <select id="Equipment" class="form-select">
+                                            <option>Disabled select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="multi_checks">
+                                        <div class="form-check">
+                                            <h5>Pallets</h5>
+                                            <div>
+                                                <label class="form-check-label" for="Pallets1">
+                                                    Yes
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Pallets1" checked>
+                                            </div>
+                                            <div>
+                                                <label class="form-check-label" for="Pallets2">
+                                                    No
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Pallets2">
+                                            </div>
+                                        </div>
+                                        <div class="form-check">
+                                            <h5>Tarp</h5>
+                                            <div>
+                                                <label class="form-check-label" for="Tarp1">
+                                                    Yes
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="Tarp1" checked>
+                                            </div>
+                                            <div>
+                                                <label class="form-check-label" for="Tarp2">
+                                                    No
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="Tarp2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 offset-md-2">
+                                    <div class="multi_checks">
+                                        <div class="form-check">
+                                            <h5>Exchange Pallets:</h5>
+                                            <div>
+                                                <label class="form-check-label" for="Pallets1">
+                                                    Yes
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault2" id="Pallets1" checked>
+                                            </div>
+                                            <div>
+                                                <label class="form-check-label" for="Pallets2">
+                                                    No
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault2" id="Pallets2">
+                                            </div>
+                                        </div>
+                                        <div class="form-check">
+                                            <h5>Driver Assist</h5>
+                                            <div>
+                                                <label class="form-check-label" for="Tarp1">
+                                                    Yes
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault3" id="Tarp1" checked>
+                                            </div>
+                                            <div>
+                                                <label class="form-check-label" for="Tarp2">
+                                                    No
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault3" id="Tarp2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="previous" class="previous action-button-previous" value="Previous">
+                            <input type="button" name="next" class="next action-button" value="Next">
+                        </fieldset>
+                        <fieldset style="display: none; opacity: 0;">
+                            <h2 class="fs-title">Other Info</h2>
+                            <input type="text" name="email" placeholder="Email">
+                            <input type="password" name="pass" placeholder="Password">
+                            <input type="password" name="cpass" placeholder="Confirm Password">
+                            <input type="button" name="previous" class="previous action-button-previous" value="Previous">
+                            <input type="submit" name="submit" class="submit action-button" value="Submit">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 row">
+                    <div class="col-md-4">
+                        <div class="foo_abo-shi">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Shipper</a></li>
+                            </ul>
+                            <img src="images/logo-footer.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <ul class="usefull_link">
+                            <li><a href="#">Carrier</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact_fo">
+                            <h4>Contact us</h4>
+                            <ul>
+                                <li><img src="images/home-icon.png" />5255 Winthrop Avenue Suite 320 Indianapolis, Indiana 46220</li>
+                                <li><img src="images/call-icon.png" />317-775-2867</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="social_head">
+                        <h4>Social Media</h4>
+                        <ul>
+                            <li><a href="#"><img src="images/facebook.png" /></a></li>
+                            <li><a href="#"><img src="images/twitter.png" /></a></li>
+                            <li><a href="#"><img src="images/insta.png" /></a></li>
+                        </ul>
+                        <button type="button">Get a Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Copyright 2022 All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 10) {
+                $('.navbar').addClass("sticky");
+            }
+            else {
+                $('.navbar').removeClass("sticky");
+            }
+        });
+    </script>
+
+    <script>
+        var current_fs, next_fs, previous_fs;
+        var left, opacity, scale;
+        var animating;
+        $(".next").click(function () {
+            if (animating) return false;
+            animating = true;
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
+            $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+            next_fs.show();
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now, mx) {
+                    scale = 1 - (1 - now) * 0.2;
+
+                    left = now * 50 + "%";
+                    opacity = 1 - now;
+                    current_fs.css({
+                        'transform': 'scale(' + scale + ')',
+                        'position': 'absolute'
+                    });
+
+                    next_fs.css({ 'left': left, 'opacity': opacity });
+                },
+                duration: 800,
+                complete: function () {
+                    current_fs.hide();
+                    animating = false;
+                },
+                easing: 'easeInOutBack'
+            });
+        });
+        $(".previous").click(function () {
+            if (animating) return false;
+            animating = true;
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+            previous_fs.show();
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now, mx) {
+                    scale = 0.8 + (1 - now) * 0.2;
+                    left = (1 - now) * 50 + "%";
+                    opacity = 1 - now;
+                    current_fs.css({ 'left': left });
+                    previous_fs.css({ 'transform': 'scale(' + scale + ')', 'opacity': opacity });
+                },
+                duration: 800,
+                complete: function () {
+                    current_fs.hide();
+                    animating = false;
+                },
+                easing: 'easeInOutBack'
+            });
+        });
+
+        $(".submit").click(function () {
+            return false;
+        });
+    </script>
+</body>
+</html>
